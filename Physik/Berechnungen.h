@@ -1,4 +1,8 @@
 #pragma once
+#include <iostream>
+
+using namespace std;
+
 static class Berechnungen
 {
 public:

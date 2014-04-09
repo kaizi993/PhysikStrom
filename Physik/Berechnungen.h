@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,6 +11,7 @@ public:
 	static float stromBerechnen(float, float);
 	static float spannungBerechnen(float, float);
 
-	static void reihenschaltung(float, float, float);
+	static int reihenschaltungBetriebsspannung(float, float, float);
+	static int reihenschaltungStrom(float, float, float);
 };
 
